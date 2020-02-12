@@ -1,56 +1,77 @@
 
-title = "gabedalay.com"
+title = "Gabe Dalay"
 baseurl = "/"
 languageCode = "en-us"
-theme = "hello-friend"
+theme = "m10c"
 paginate = 5
 publishdir = "./"
 
 [params]
-  # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
+  author = "Gabe Dalay"
+  description = "Thoughts of a gabe. Topics including software engineering, health/fitness/nutrition, music, cooking and coffee."
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/jebrial"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/gabedalay"
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/gabrieldalay/"
 
-  # "light" or "dark"
-  defaultTheme = "dark"
+  [params.style]
+    darkestColor = "#fff"
+    darkColor = "#fff"
+    lightColor = "#212121"
+    lightestColor = "#808080"
+    primaryColor = "#212121"
 
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+# theme = "hello-friend"
+# [params]
+#   # dir name of your blog content (default is `content/posts`)
+#   contentTypeName = "posts"
 
-  # Show reading time in minutes for posts
-  showReadingTime = false
+#   # "light" or "dark"
+#   defaultTheme = "dark"
 
-[languages]
-  [languages.en]
-    title = "gabe dalay"
-    subtitle = "thoughts of a gabe."
-    keywords = "software development, coffee, baking, cooking, exercise, nutrition, rust, javascript, music, guitar, audio software, iot"
-    copyright = "2020"
-    menuMore = "Show more"
-    writtenBy = "Written by"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
-    # leave empty to disable, enter display text to enable
-    # lastModDisplay = ""
+#   # if you set this to 0, only submenu trigger will be visible
+#   showMenuItems = 2
 
-    [languages.en.params.logo]
-      logoText = "gabe.dalay $>"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+#   # Show reading time in minutes for posts
+#   showReadingTime = false
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+# [languages]
+#   [languages.en]
+#     title = "gabe dalay"
+#     subtitle = "thoughts of a gabe."
+#     keywords = "software development, coffee, baking, cooking, exercise, nutrition, rust, javascript, music, guitar, audio software, iot"
+#     copyright = "2020"
+#     menuMore = "Show more"
+#     writtenBy = "Written by"
+#     readMore = "Read more"
+#     readOtherPosts = "Read other posts"
+#     newerPosts = "Newer posts"
+#     olderPosts = "Older posts"
+#     minuteReadingTime = "min read"
+#     dateFormatSingle = "2006-01-02"
+#     dateFormatList = "2006-01-02"
+#     # leave empty to disable, enter display text to enable
+#     # lastModDisplay = ""
+
+#     [languages.en.params.logo]
+#       logoText = "gabe.dalay $>"
+#       logoHomeLink = "/"
+#     # or
+#     #
+#     # path = "/img/your-example-logo.svg"
+#     # alt = "Your example logo alt text"
+
+#     [languages.en.menu]
+#       [[languages.en.menu.main]]
+#         identifier = "about"
+#         name = "About"
+#         url = "/about"
+#       [[languages.en.menu.main]]
+#         identifier = "showcase"
+#         name = "Showcase"
+#         url = "/showcase"
