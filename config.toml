@@ -20,11 +20,11 @@ publishdir = "./"
     url = "https://www.linkedin.com/in/gabrieldalay/"
 
   [params.style]
-    darkestColor = "#fff"
+    darkestColor = "#f1f1f1"
     darkColor = "#fff"
-    lightColor = "#212121"
-    lightestColor = "#808080"
-    primaryColor = "#212121"
+    lightColor = "#606060"
+    lightestColor = "#707070"
+    primaryColor = "#334865"
 
 # theme = "hello-friend"
 # [params]
