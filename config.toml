@@ -18,7 +18,12 @@ publishdir = "./"
   [[params.social]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/gabrieldalay/"
-
+  [[params.social]]
+    name = "instagram"
+    url = "https://www.instagram.com/jebrial/"
+  [[params.social]]
+    name = "soundcloud"
+    url = "https://soundcloud.com/xjebrialx"
   [params.style]
     darkestColor = "#f1f1f1"
     darkColor = "#fff"
