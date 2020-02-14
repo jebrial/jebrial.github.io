@@ -6,10 +6,20 @@
     <description>Recent content on Gabe Dalay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Feb 2020 13:41:05 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2020 19:34:22 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Awesome Banana Bread</title>
+      <link>/posts/awesome-banana-bread/</link>
+      <pubDate>Thu, 13 Feb 2020 19:34:22 -0500</pubDate>
+      
+      <guid>/posts/awesome-banana-bread/</guid>
+      <description>aka - Chocolate chip Pecan Oat Bran Banana Bread I workout a lot but I also have a sweet tooth. This is recipe I came up with as a way to have a healthier alternative to a more traditional banana bread. I am still tweaking this so it may change but I think it is rady to share.
+Growing up and far into my adult life my mom has made banana bread for my family and we usually finish it before it cools.</description>
+    </item>
     
     <item>
       <title>Hello World</title>
